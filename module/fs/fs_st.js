@@ -18,4 +18,4 @@ fs.stat('../../file/sample.txt',function(err,stat){
                 console.log('modified time: ' + stat.mtime);
             }
         }
-    }|);
+    });
