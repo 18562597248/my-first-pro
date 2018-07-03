@@ -1,0 +1,19 @@
+{
+  "name": "personal-UI",
+  "version": "0.0.1",
+  "description":"私人库",
+  "homepage":"https://github.com/18562597248/personal-UI",
+  "author":"changjp",
+  "contributors":"",
+  "main":"lib/personal-ui.common.js",
+  "scripts":{
+      "dev":"node lib/personal-ui.common.js"
+  },
+  "peerDependencies":"",
+  "dependencies":"",
+  "devDependencies":{
+      "express": "^4.16.3"
+  },
+  "repository":"git-github",
+  "keywords":"UI"
+}
