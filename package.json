@@ -7,7 +7,7 @@
   "contributors":"",
   "main":"lib/personal-ui.common.js",
   "scripts":{
-      "dev":"node lib/personal-ui.common.js"
+      "dev":"node src/main.js"
   },
   "peerDependencies":"",
   "dependencies":"",

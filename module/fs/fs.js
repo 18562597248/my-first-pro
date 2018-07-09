@@ -1,5 +1,5 @@
 'use strict';
-
+                                //fs.open(path, flags, [mode], callback)
 var fs = require('fs');
 
 fs.readFile('../../file/sample.txt', 'utf-8', function (err, data) {

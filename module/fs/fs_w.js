@@ -2,7 +2,7 @@
 
 var fs = require('fs');
 
-var data = 'hello , node.js     ---- from Async';
+var data = 'export , node.js     ---- from Async';
 fs.writeFile('../../file/output.txt',data,function(err){
     if(err){
         console.log(err);
@@ -11,6 +11,6 @@ fs.writeFile('../../file/output.txt',data,function(err){
     }
 });
 
-var data2 = 'hello ~, node.js    ---- from Sync';
+var data2 = 'export ~, node.js    ---- from Sync';
 fs.writeFileSync('../../file/output2.txt',data2);
 console.log('Sync write ok.');
